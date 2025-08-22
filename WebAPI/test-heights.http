@@ -1,0 +1,16 @@
+### Pruebas de API de Montañas
+
+### 1. Obtener todas las montañas
+GET http://localhost:5046/api/Mountain?page=1&pageSize=10
+
+### 2. Filtrar por altura mínima
+GET http://localhost:5046/api/Mountain?page=1&pageSize=10&minHeight=5000
+
+### 3. Filtrar por altura máxima
+GET http://localhost:5046/api/Mountain?page=1&pageSize=10&maxHeight=3000
+
+### 4. Filtrar por rango de altura
+GET http://localhost:5046/api/Mountain?page=1&pageSize=10&minHeight=3000&maxHeight=6000
+
+### 5. Filtrar por nombre y altura
+GET http://localhost:5046/api/Mountain?page=1&pageSize=10&name=Everest&minHeight=4000
